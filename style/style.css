@@ -1,0 +1,14 @@
+body {
+    padding: 3%;
+    margin: 0;
+    display: inline;
+}
+
+.container {
+    background-color: #f3f3f3;
+    border: solid #000000;
+    padding: 2%;
+}
+form {
+    text-align: center;
+}

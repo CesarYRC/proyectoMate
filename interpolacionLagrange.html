@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Métodos de Interpolación</title>
+    <meta charset="utf-8">
+    
+    <script type="text/javascript" src="./main.js"></script>
+    <meta name="viewport" content="device-width">
+    <link href="style/style.css" rel="stylesheet" />
+    <body>
+       
+      <form id="miFormulario" name="post">
+           <!--h1 es para titulo y strong para negritas-->
+           <h1>Interpolación de Lagrange de Primer Grado</h1>
+        <p>
+          <label>X</label>
+          <!--Para agregar algo-->
+          <input type="number" name="" id="valorx" autofocus placeholder="Digite un valor"></p>
+        <p>
+          <label>X0</label>
+          <input type="number" name="" id="valorx0" autofocus placeholder="Digite un valor"></p>
+        <p>
+          <label>X1</label>
+          <input type="number" name="" id="valorx1" autofocus placeholder="Digite un valor"></p>
+        <p>
+          <label>f(x0)</label>
+          <input type="number" name="" id="valorfx0" autofocus placeholder="Digite un valor"></p>
+        <p>
+          <label>f(x1)</label>
+          <input type="number" name="" id="valorfx1" autofocus placeholder="Digite un valor"></p>
+        <p>
+        <button type="button" onclick="lagrange()">Calcular</button></p>
+        <button onclick="limpiar();">Reset</button><p></p>
+        <p>f(x) = <input type="text" id="resultado">aproximado </p>
+        <!--El atributo class es para asignarle un nombre-->
+        <!--El atributo target es para abrir el boton en otra pagina-->
+      
+        
+            <a href="index.html">
+              <button type="button" class="button">Regresar</button></a>
+        
+          
+        </form>
+      </head>
+    </body>
+</html>
