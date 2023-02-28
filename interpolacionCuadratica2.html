@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link href="style/style.css" rel="stylesheet" />
+        
+
+        <title>Métodos de Interpolación</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="./main.js"></script>
+    <!--Ande pues asi se pone un comentario ahi riky-->
+        <!--Es para que se acomode en cualquier parte que lo abra-->
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="container">
+            <!--Es para crear el fomrulario-->
+            <form id="miFormulario" name="post">
+            <!--h1 es para titulo y strong para negritas-->
+            <h1>Interpolación Cuadratica<p></p></h1>
+            <p>Llene todos los campos.</p>
+            <p>
+                <label>X</label>
+                <!--Para agregar algo-->
+                <input type="number" name="" id="valorx" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>X0</label>
+                <input type="number" name="" id="valorx0" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>X1</label>
+                <input type="number" name="" id="valorx1" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>X2</label>
+                <input type="number" name="" id="valorx2" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>f(x0)</label>
+                <input type="number" name="" id="valorfx0" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>f(x1)</label>
+                <input type="number" name="" id="valorfx1" autofocus placeholder="Digite un valor"></p>
+              <p>
+                <label>f(x2)</label>
+                <input type="number" name="" id="valorfx2" autofocus placeholder="Digite un valor"></p>
+            
+            <button type="button" class="btn btn-info" onclick="cuadratica()">Calcular</button><p></p>
+            <button onclick="limpiar();" class="btn btn-info">Reset</button><p></p>
+            <p>f(x) = <input type="text" id="resultado"> aproximado </p>
+            <br>
+            <a href="index.html" >
+                <button type="button" class="btn btn-info" class="regresar">Regresar </button></a>   
+            </form>
+    </div>
+    </body>
+</html>
