@@ -20,9 +20,7 @@
             <h1>Interpolación Lineal<p></p></h1>
             <p>Llene todos los campos.</p>
             <p>
-            <label>X</label>
-            <!--Para agregar algo-->
-            <input type="number" name="" id="valorx" autofocus placeholder="Digite un valor"></p>
+           
             <p>
             <label>X0</label>
             <input type="number" name="" id="valorx0" autofocus placeholder="Digite un valor"></p>
@@ -35,10 +33,13 @@
             <p>
             <label>f(x1)</label>
             <input type="number" name="" id="valorfx1" autofocus placeholder="Digite un valor"></p>
+            <label>X</label>
+            <!--Para agregar algo-->
+            <input type="number" name="" id="valorx" autofocus placeholder="Digite un valor"></p>
             
             <button type="button" class="btn btn-info" onclick="lineal()">Calcular</button><p></p>
             <button onclick="limpiar();" class="btn btn-info">Reset</button><p></p>
-            <p>f(x) = <input type="text" id="result"> aproximado </p>
+            <p>f(x) = <input id="result" readonly> aproximado </p>
             <br>
             <br>
             
@@ -54,7 +55,7 @@
             <a href="interpolacionLagrangeSeg.html">
                 <button type="button" class="btn btn-outline-dark" class="botonLagrangeSeg">Interpolación Lagrange de Segundo Grado</button></a>
 
-            
+                
             </form>
     </div>
     </body>

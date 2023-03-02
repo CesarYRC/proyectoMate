@@ -10,8 +10,10 @@ function lineal() {
     var x0 = Number(document.getElementById('valorx0').value); 
     var x1 = Number(document.getElementById('valorx1').value);
 
-    document.getElementById('result').value = ((fx0 + fx1) / (x1 - x0) * (x - x0));
+    var b1 = (fx0) + ((fx1 - fx0) / (x1 -x0));
+    var total = (b1) * (x - x0); 
 
+    document.getElementById('result').value = total;
 }
 function cuadratica() {
 
@@ -63,4 +65,5 @@ function lagrangeSeg() {
     var totalLagraSegGra = partOne + partTwo + partThree;
     
     document.getElementById('resultado').value = totalLagraSegGra;
+    return totalLagraSegGra;
 }
