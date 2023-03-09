@@ -36,7 +36,7 @@ function cuadratica() {
     
     var b0 = fx0;
     var b1 = (fx1 - fx0) / (x1 - x0);
-    var b2 = (((fx2 - fx0) / (x2 - x0)) - ((fx1 - fx0) / (x1 - x0))) / (x2 - x1);
+    var b2 = ((fx2 - fx0) / (x2 - x0) - b1) / (x2 - x1);
 
     var total = b0 + (b1 * (x - x0)) + (b2 * ((x - x0) * (x - x1)));
 
