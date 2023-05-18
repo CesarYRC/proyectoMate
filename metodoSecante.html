@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link href="style/style.css" rel="stylesheet" />
+    
+
+        <title>Solución de ecuaciones no lineales</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="./funcionesSecante.js"></script>
+    <!--Ande pues asi se pone un comentario ahi riky-->
+        <!--Es para que se acomode en cualquier parte que lo abra-->
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="container">
+            <!--Es para crear el fomrulario-->
+            <form id="miFormulario" name="post">
+            <!--h1 es para titulo y strong para negritas-->
+            <h1>Metódo de la Secante<p></p></h1>
+            <p>Llene todos los campos.</p>
+            <p>Ingresa función de 2° y 3° grado.</p>
+            <p>
+            <label>Función</label>
+            <input type="text" name="" id="funcion" autofocus placeholder="Digite un valor"></p>
+            <p>
+            <label>X0</label>
+            <input type="number" name="" id="x0" autofocus placeholder="Digite un valor"></p>
+            <p>
+            <label>X1</label>
+            <input type="number" name="" id="x1" autofocus placeholder="Digite un valor"></p>
+            <p>
+           
+            <label>Iteración</label>
+           <input type="number" name="" id="iteracion" autofocus placeholder="Digite un valor"></p>
+
+            
+            <button type="button" class="btn btn-info" onclick="calcular()">Calcular</button><p></p>
+            <button class="btn btn-info">Limpiar</button><p></p>
+            <p>Xr = <input id="resultado" type="text" readonly> Aproximación de la raíz</p>
+            <br>
+            <br>
+            <h3>Error Relativo</h3>
+            <p>
+            <label>Error relativo</label>
+                <input type="" name="" id="errorAbsoluto" autofocus placeholder="Digite un valor"></p>
+                <p>
+                    <br>
+                    <br>
+                            <a href="index2.html">
+                                <button type="button"  class="btn btn-outline-dark" class="botonCuadratica">Método de Bisección </button></a>
+                            <br>
+            
+            </form>
+    </div>
+    </body>
+</html>

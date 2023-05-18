@@ -1,15 +1,33 @@
-body {
-    padding: 3%;
-    margin: 0;
-    display: inline;
+/* Estilo general del formulario */
+form {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
-.container {
-    background-color: #f3f3f3;
-    border: solid #000000;
-    padding: 2%;
+/* Estilo de los campos de texto */
+input[type=text], input[type=email], input[type=password] {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #999;
 }
-form {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.763);
+
+/* Estilo de las etiquetas */
+label {
+  display: inline-block;
+  width: 25%;
+  font-weight: bold;
+}
+body {
+    background-color: gray;
+  }
+p {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
 }
